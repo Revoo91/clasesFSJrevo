@@ -8,8 +8,10 @@
 </head>
 <body>
     <HEader>
-    <H1>ElPital</H1>
+        <img src="./imagenes/ElpitalTitulo.png" alt="ElPital" width="1000" height="500">
+    
 </HEader>
+
 <nav>
     <ul>
         <!---elementos de la listas-->
@@ -27,14 +29,104 @@
         </li>
     </ul>
 </nav>
+
+<main>
+    <article>
+        <h2>Sabias que?</h2>
+    </article>
+    <p>El Pital es un centro turístico ubicado en el departamento de Chalatenango en El Salvador, conocido por su belleza natural y sus vistas panorámicas impresionantes. 
+        Se encuentra en la cordillera del Bálsamo, a una altitud de 2,730 metros sobre el nivel del mar, lo que lo convierte en el punto más alto de El Salvador.
+
+        El Pital es un destino popular para los excursionistas y amantes de la naturaleza, ya que ofrece la oportunidad de explorar senderos naturales, observar la fauna y 
+        la flora, y disfrutar de vistas panorámicas de las montañas, los bosques y los valles. También es un lugar popular para acampar y disfrutar de las noches frescas y estrelladas.
+        
+        Además de su belleza natural, El Pital también es conocido por su clima fresco y agradable, que lo convierte en un lugar ideal para escapar del calor y la humedad de las ciudades
+         de El Salvador.
+    </p>
+</main>
 <section>
+    <h2>Mira un podo de nuestro lugar turisticos</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/OsW0YRW78Ek" title="YouTube video player" frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
      <h3>Visita El Pital</h3>
+     
      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15458.673473420098!2d-89.13476237475533!3d14.388589439003097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f63a22e2515544b%3A0x29d828ff57aed1dd!2sCerro%20El%20Pital!5e0!3m2!1ses!2ssv!4v1678920775401!5m2!1ses!2ssv" width="800" height="650" 
      style="border:0;" allowfullscreen="" loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
+
+<article>
+    <section>
+        <h2>Acontinuación te mostramos algunos de los lugares para poder ospedarte</h2>
+        </section>
+</article>
+
+<table>
+    <thead>
+      <tr>
+        <th>Lugar</th>
+        <th>Precio</th>
+        <th>Servicios</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Hotel El Pital</td>
+        <td>$20 - $60</td>
+        <td>Wi-Fi, Restaurante, Estacionamiento gratuito</td>
+      </tr>
+      <tr>
+        <td>Hostal Casa Verde El Pital</td>
+        <td>$15 - $30</td>
+        <td>Área común, Terraza, Cocina compartida</td>
+      </tr>
+      <tr>
+        <td>Hotel y Restaurante El Capulin</td>
+        <td>$30 - $60</td>
+        <td>Wi-Fi, Restaurante, Estacionamiento gratuito</td>
+      </tr>
+      <tr>
+        <td>Posada El Cerro</td>
+        <td>$20 - $50</td>
+        <td>Wi-Fi, Jardín, Terraza con vistas panorámicas</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <article>
+    <section>
+        <h2> Si esta informacion te ha servido de ayuda y quieres recibir mas informacion al rescpeto <br>
+            puedes dejar tu Correo, por alguna oferta que se presenten <br>     
+        </h2>
+    </section>
+  </article>
+  
+  <form action="enviar.php" method="POST">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre"><br>
+  
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" id="email" name="email"><br>
+  
+    <label for="asunto">Asunto:</label><br>
+    <input type="text" id="asunto" name="asunto"><br>
+  
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje"></textarea><br>
+
+    <label for="Quiero recibir">Quiero recibir :</label><br>
+  <select id="Quiero recibir" name="Quiero recibir">
+    <option value="--">--</option>
+    <option value="Ofertas">Ofertas</option>
+    <option value="Eventos">Eventos</option>
+    <option value="Turs">Turs</option>
+    <option value="Todas">Todas</option>
+  </select><br>
+  
+    <button type="submit">Enviar</button>
+  </form>
+</aside>
+  
 <footer>
     <h1>2023 Rafael Revolorio</h1>
 </footer>
